@@ -1,0 +1,32 @@
+{
+  "name": "cloudantmon",
+  "version": "0.1.0",
+  "description": "Cloudant monitoring tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx standard",
+    "standard": "npx standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glynnbird/cloudantmon.git"
+  },
+  "keywords": [
+    "Cloudant"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/glynnbird/cloudantmon/issues"
+  },
+  "homepage": "https://github.com/glynnbird/cloudantmon#readme",
+  "dependencies": {
+    "@ibm-cloud/cloudant": "^0.1.3"
+  },
+  "bin": {
+    "cloudantmon": "bin/cloudantmon.bin.js"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
