@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx standard",
-    "standard": "npx standard --fix"
+    "standard": "npx standard --fix",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

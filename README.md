@@ -24,7 +24,7 @@ To run with a Cloudant service using IAM authentication set up environment varia
 ```sh
 export CLOUDANT_URL="https://my-cloudant-hostname.cloudant.com"
 export CLOUDANT_APIKEY="my-cloudant-api-key"
-npm run start
+cloudantmon
 ```
 
 If you wish to run with HTTP Basic authentication, there are other variables required:
@@ -34,5 +34,6 @@ CLOUDANT_AUTH_TYPE=BASIC
 CLOUDANT_URL="https://my-cloudant-hostname.cloudant.com"
 CLOUDANT_USERNAME="myusername"
 CLOUDANT_PASSWORD="mypassword"
+cloudantmon
 ```
 
